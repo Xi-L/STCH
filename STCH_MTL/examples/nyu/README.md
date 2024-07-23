@@ -1,3 +1,24 @@
+## STCH for NYUv2
+
+1. Download the NYUv2 dataset following the instruction below from  ``LibMTL``.
+
+2. Train the **SegNet+MTAN** model with STCH by running the following command:
+
+```shell
+python main_segnet.py --weighting STCH --gpu_id 0 --aug --mode train --save_path saved_model
+```
+
+3. Test the trained model by running the following command:
+
+```shell
+python main_segnet.py --weighting STCH --gpu_id 0 --mode test --load_path saved_model
+```
+
+4. A trained model is provided in the <code>saved_model</code> folder.
+
+
+
+
 ## NYUv2
 
 The NYUv2 dataset [[1]](#1) is an indoor scene understanding dataset, which consists of video sequences recorded by the RGB and Depth cameras in the Microsoft Kinect. It contains 795 and 654 images with ground-truths for training and validation, respectively. 
