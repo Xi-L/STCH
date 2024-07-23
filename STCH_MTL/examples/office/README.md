@@ -1,3 +1,22 @@
+## STCH for Office
+
+1. Download the Office-31 dataset following the instruction below from  ``LibMTL``.
+
+2. Train the model with STCH by running the following command:
+
+```shell
+python main.py --weighting STCH --dataset office-31 --gpu_id 0 --multi_input --mode train --save_path saved_model
+```
+
+3. Test the trained model by running the following command:
+
+```shell
+python main.py --weighting STCH --gpu_id 0 --multi_input --mode test --load_path saved_model
+```
+
+4. A trained model is provided in the <code>saved_model</code> folder.
+
+
 ## Office-31 and Office-Home
 
 The Office-31 dataset [[1]](#1) consists of three classification tasks on three domains: Amazon, DSLR, and Webcam, where each task has 31 object categories. It can be download [here](https://www.cc.gatech.edu/~judy/domainadapt/#datasets_code). This dataset contains 4,110 labeled images and we randomly split these samples, with 60% for training, 20% for validation, and the rest 20% for testing. 
