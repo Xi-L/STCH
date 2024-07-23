@@ -1,3 +1,22 @@
+## STCH for QM9
+
+1. Download the QM9 dataset following the instruction below from  ``LibMTL``.
+
+2. Train the model with STCH by running the following command:
+
+```shell
+python main.py --weighting STCH --gpu_id 0 --lr 1e-3 --mode train --save_path saved_model
+```
+
+3. Test the trained model by running the following command:
+
+```shell
+python main.py --weighting STCH --gpu_id 0 --mode test --load_path saved_model
+```
+
+4. A trained model is provided in the <code>saved_model</code> folder.
+
+
 ## QM9
 
 The QM9 dataset [[1]](#1) consists of about 130K molecules with 19 regression targets. The training codes are mainly followed [[2]](#2) and modified from [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric/blob/master/examples/qm9_nn_conv.py). 
