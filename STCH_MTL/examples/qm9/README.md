@@ -1,6 +1,6 @@
 ## STCH for QM9
 
-1. Download the QM9 dataset following the instruction below from  ``LibMTL``.
+1. Install PyG following the instruction below from  ``LibMTL``.
 
 2. Train the model with STCH by running the following command:
 
