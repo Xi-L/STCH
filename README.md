@@ -10,7 +10,7 @@ It contains the training and testing codes (and trained models) for
 
 **Reference**
 
-If you find our work is helpful to your research, please cite our paper:
+If you find our work helpful for your research, please cite our paper:
 ```
 @inproceedings{lin2024smooth,
   title={Smooth Tchebycheff Scalarization for Multi-Objective Optimization},
