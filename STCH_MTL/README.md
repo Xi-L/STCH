@@ -1,6 +1,9 @@
 # STCH for MTL
 
-The code of STCH_MTL is developed using the ``LibMTL`` library. The implementation of STCH can be found in ``LibMTL/weighting/STCH.py``, and the trained model for each problem can be found in the corresponding folder under ``examples``.
+The code of STCH_MTL is developed using the ``LibMTL`` [library](https://github.com/median-research-group/LibMTL). The implementation of STCH can be found in ``LibMTL/weighting/STCH.py``, and the trained model for each problem can be found in the corresponding folder under ``examples``.
+
+If you find this code useful for your research, please also cite the MTL library:
+
 
 # LibMTL
 
