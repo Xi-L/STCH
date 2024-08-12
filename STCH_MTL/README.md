@@ -4,6 +4,18 @@ The code of STCH_MTL is developed using the ``LibMTL`` [library](https://github.
 
 If you find this code useful for your research, please also cite the MTL library:
 
+```
+@article{lin2023libmtl,
+  title={{LibMTL}: A {P}ython Library for Multi-Task Learning},
+  author={Baijiong Lin and Yu Zhang},
+  journal={Journal of Machine Learning Research},
+  volume={24},
+  number={209},
+  pages={1--7},
+  year={2023}
+}
+```
+
 
 # LibMTL
 
