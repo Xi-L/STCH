@@ -148,7 +148,7 @@ for test_ins in ins_list:
             hv_value = hv(results_F_norm)
            
             print('Time: ', stop - start)  
-            print("hv_gap", "{:.4e}".format(np.mean(hv_value)))
+            print("hv_mean", "{:.4e}".format(np.mean(hv_value)))
         
         
         # plot the learned Pareto front
