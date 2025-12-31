@@ -5,7 +5,7 @@ The code is mainly designed to be simple and readable, it contains:
 - <code>problem.py</code> contains all test problems used in this paper;
 - The folder <code>data</code> contains the problem information for the RE problems, which is obtained from the [reproblems repository](https://github.com/ryojitanabe/reproblems).
 
-- If you find the RE problems are useful for your research, please also cite the RE paper:
+- If you find the RE problems useful for your research, please also cite the RE paper:
 
 ```
 @article{tanabe2020easy,
